@@ -30,8 +30,6 @@ var settingsSantize = {
     bdo:['dir'],
     div:['class'],
     marquee:['behavior','bgcolor','direction','width','height','loop'],
-    reveal:[''],
-    spoiler:[''],
     button: ['disabled'],
     input:['value','type','disabled','maxlength','max','min','placeholder','readonly','required'],
     details:['open'],
@@ -43,11 +41,11 @@ var settingsSantize = {
     ul:['type','compact'],  
     "*":['hidden','spellcheck','title','contenteditable','data-style']
   },
-  selfClosing: [ 'img', 'br', 'hr', 'area', 'base', 'basefont', 'input', 'spoiler', 'reveal', 'link', 'meta' , 'wbr'],
+  selfClosing: [ 'img', 'br', 'hr', 'area', 'base', 'basefont', 'input', 'link', 'meta' , 'wbr'],
   allowedSchemes: [ 'http', 'https', 'ftp', 'mailto', 'data' ],
   allowedSchemesByTag: {},
   allowedSchemesAppliedToAttributes: [ 'href', 'src', 'cite' ],
-  allowProtocolRelative: true
+  allowProtocolRelative: false
 } 
   // Code by ItzCrazyScout and 'HOST'
 
