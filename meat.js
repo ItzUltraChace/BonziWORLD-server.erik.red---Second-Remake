@@ -6,7 +6,7 @@ var settingsSantize = {
     'acronym','adress','article','aside','bdi','bdo','big','center','site',
     'data','datalist','dl','del','dfn','dialog','dir','dl','dt','fieldset',
     'figure','figcaption','header','ins','kbd','legend','mark','nav',
-    'optgroup','form','q','reveal','rp','rt','ruby','s','sample','section','small',
+    'optgroup','form','q','reveal','rp','rt','ruby','s','sample','spoiler','section','small',
     'sub','sup','template','textarea','tt','u'],
   allowedAttributes: {
     a: [ 'href', 'name', 'target' ],
@@ -30,6 +30,8 @@ var settingsSantize = {
     bdo:['dir'],
     div:['class'],
     marquee:['behavior','bgcolor','direction','width','height','loop'],
+    reveal:[''],
+    spoiler:[''],
     button: ['disabled'],
     input:['value','type','disabled','maxlength','max','min','placeholder','readonly','required'],
     details:['open'],
@@ -83,7 +85,7 @@ var stickers = {
     cyan:"cyan is yellow",
     no:"fuck no",
     bye:"bye im fucking leaving",
-    kiddie:"kiddie",
+    kiddie:"kiddie"
 }
 const log = require("./log.js").log;
 const Ban = require("./ban.js");
