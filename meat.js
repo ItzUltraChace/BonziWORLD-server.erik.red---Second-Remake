@@ -41,7 +41,7 @@ var settingsSantize = {
     ul:['type','compact'],  
     "*":['hidden','spellcheck','title','contenteditable','data-style']
   },
-  selfClosing: [ 'img', 'br', 'hr', 'area', 'base', 'basefont', 'input', 'spoiler', 'reveal' 'link', 'meta' , 'wbr'],
+  selfClosing: [ 'img', 'br', 'hr', 'area', 'base', 'basefont', 'input', 'spoiler', 'reveal', 'link', 'meta' , 'wbr'],
   allowedSchemes: [ 'http', 'https', 'ftp', 'mailto', 'data' ],
   allowedSchemesByTag: {},
   allowedSchemesAppliedToAttributes: [ 'href', 'src', 'cite' ],
