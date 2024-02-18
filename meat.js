@@ -6,7 +6,7 @@ var settingsSantize = {
     'acronym','adress','article','aside','bdi','bdo','big','center','site',
     'data','datalist','dl','del','dfn','dialog','dir','dl','dt','fieldset',
     'figure','figcaption','header','ins','kbd','legend','mark','nav',
-    'optgroup','form','q','reveal','rp','rt','ruby','s','sample','section','small',
+    'optgroup','form','q','reveal','rp','rt','ruby','s','sample','spoiler','section','small',
     'sub','sup','template','textarea','tt','u'],
   allowedAttributes: {
     a: [ 'href', 'name', 'target' ],
@@ -74,7 +74,7 @@ var settingsSantize = {
     'acronym','adress','article','aside','bdi','bdo','big','center','site',
     'data','datalist','dl','del','dfn','dialog','dir','dl','dt','fieldset',
     'figure','figcaption','header','ins','kbd','legend','mark','nav',
-    'optgroup','form','q','reveal','rp','rt','ruby','s','sample','section','small',
+    'optgroup','form','q','reveal','rp','rt','ruby','s','sample','spoiler','section','small',
     'sub','sup','template','textarea','tt','u'],
   allowedAttributes: {
     a: [ 'href', 'name', 'target' ],
